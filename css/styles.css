@@ -1,14 +1,14 @@
 /* Site nav */ 
 
-.site-nav .link:hover,
-.site-nav .link:focus {     
+.site-nav .link.current:hover,
+.site-nav .link.current:focus {     
   color: var(--accent-color);
 }
   
 /* Contact nav */
 
-.contact-nav .link:hover,
-.contact-nav .link:focus {
+.contact-nav .link.current:hover,
+.contact-nav .link.current:focus {
   color: var(--accent-color);
 } 
 
@@ -16,14 +16,17 @@
 
 .hero {
   background-color: var(--secondary-bg-color);
+  text-align: center;
+
+  outline: 2px solid yellow;
 }
 
 .hero-title {
+  margin-bottom: 30px;
   color: var(--white-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
@@ -31,13 +34,23 @@
 /* Button */ 
 
 .button.order {
+  display: inline-block;
+  padding: 10px 32px;
+  min-width: 200px;
   background-color: var(--accent-color);
   color: var(--white-color);
 }
 
 /* Features */
 
+.section.features {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  outline: 2px solid green;
+}
+
 .feature .title {
+  margin-bottom: 10px;
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 14px;
@@ -46,14 +59,24 @@
 }
 
 .feature .text {
+  margin-bottom: ;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
 }
 
+/* Works */
+
+.section.works {
+  padding-bottom: 94px;
+  background-color: teal;
+}
+
 /* Team */
 
 .section-team {
+  padding-top: 94px;
+  padding-bottom: 94px;
   background-color: var(--additional-bg-color);
 } 
 
