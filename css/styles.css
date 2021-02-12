@@ -1,26 +1,20 @@
 /* Site nav */ 
 
-.site-nav .link.current:hover,
-.site-nav .link.current:focus {     
+.site-nav .link.current {
   color: var(--accent-color);
 }
   
-/* Contact nav */
-
-.contact-nav .link.current:hover,
-.contact-nav .link.current:focus {
-  color: var(--accent-color);
-} 
-
 /* Hero */
 
 .hero {
   max-width: 1600px;
- 
-  background-color: var(--secondary-bg-color);
-  text-align: center; 
   padding-top: 200px;
   padding-bottom: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--secondary-bg-color);
+  text-align: center; 
+  
 }
 
 .hero-title {
@@ -106,7 +100,7 @@
 /* Team */
 
 .section-team {
-  width: 1600px;
+  max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
   padding-top: 94px;
