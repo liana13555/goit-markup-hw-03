@@ -84,7 +84,6 @@ p {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  background-color: rgb(196, 125, 125);
 }
 
 .main-nav {
@@ -114,6 +113,11 @@ p {
   color: var(--title-text-color);
 }
 
+.site-nav .link:hover,
+.site-nav .link:focus {     
+  color: var(--accent-color);
+}
+
 /* Contact nav */
 
 .contact-nav {
@@ -128,6 +132,11 @@ p {
 .contact-nav a {
   color: var(--primary-text-color);
 }
+
+.contact-nav .link:hover,
+.contact-nav .link:focus {
+  color: var(--accent-color);
+} 
 
 /* Button */ 
 
@@ -169,6 +178,8 @@ footer {
   max-width: 1600px;
   padding-top: 60px;
   padding-bottom: 60px;
+  margin-left: auto;
+  margin-right: auto;
   background-color: var(--secondary-bg-color);
 }
 
