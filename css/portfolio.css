@@ -24,15 +24,15 @@
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  margin-left: calc(-1 * var(--feature-gap));
-  margin-top: calc(-1 * var(--feature-gap));
-
+  justify-content: space-between;
 }
 
 .portfolio-list .item {
-  flex-basis: calc(100% / 3 - var(--feature-gap));
-  margin-left: var(--feature-gap);
-  margin-top: var(--feature-gap);
+  width: calc(100% / 3 - 30px);
+}
+
+.portfolio-list .image {
+  width: 100%;
 }
 
 .portfolio-list .content {
