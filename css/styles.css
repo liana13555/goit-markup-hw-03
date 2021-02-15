@@ -108,11 +108,16 @@
 .team {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+
+  margin-left: calc(-1 * var(--feature-gap));
+  margin-top: calc(-1 * var(--feature-gap));
 }
   
 .team > .item {
-  width: calc(100% / 4 - 30px);
+  flex-basis: calc(100% / 4 - var(--feature-gap));
+
+  margin-left: var(--feature-gap);
+  margin-top: var(--feature-gap);
 
   background-color: var(--white-color);
 }
